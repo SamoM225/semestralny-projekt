@@ -1,0 +1,38 @@
+[
+    {
+        "month": "2022-01",
+        "expenses": 1200,
+        "savings": 800
+    },
+    {
+        "month": "2022-02",
+        "expenses": 1300,
+        "savings": 700
+    },
+    {
+        "month": "2022-03",
+        "expenses": 1100,
+        "savings": 900
+    },
+    {
+        "month": "2022-04",
+        "expenses": 1400,
+        "savings": 600
+    },
+    {
+        "month": "2022-05",
+        "expenses": 1500,
+        "savings": 500
+    },
+    {
+        "month": "2022-06",
+        "expenses": 1000,
+        "savings": 1000
+    },
+    {
+        "month": "2022-07",
+        "expenses": 1600,
+        "savings": 400
+    }
+]
+

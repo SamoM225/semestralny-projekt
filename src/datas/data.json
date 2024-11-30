@@ -1,0 +1,17 @@
+[
+    {
+        "to": "John Doe",
+        "whatFor": "Rent payment",
+        "amount": 1200
+    },
+    {
+        "to": "Alice Smith",
+        "whatFor": "Loan repayment",
+        "amount": 500
+    },
+    {
+        "to": "Bob Johnson",
+        "whatFor": "Gift",
+        "amount": 200
+    }
+]

@@ -1,0 +1,265 @@
+[
+    {
+        "id": "chart1",
+        "series": [
+            {
+                "name": "Expenses",
+                "data": [1200, 1450, 1320, 1500, 1750, 1600, 1800, 1700, 1900, 2000, 2100, 2200]
+            }
+        ],
+        "options": {
+            "chart": {
+                "type": "bar",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Monthly Expenses",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "xaxis": {
+                "categories": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "yaxis": {
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    },
+    {
+        "id": "chart2",
+        "series": [
+            {
+                "name": "Income",
+                "data": [2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600]
+            }
+        ],
+        "options": {
+            "chart": {
+                "type": "line",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Monthly Income",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "xaxis": {
+                "categories": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "yaxis": {
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    },
+    {
+        "id": "chart3",
+        "series": [
+            {
+                "name": "Savings",
+                "data": [1300, 1150, 1380, 1300, 1150, 1400, 1300, 1500, 1400, 1400, 1400, 1400]
+            }
+        ],
+        "options": {
+            "chart": {
+                "type": "area",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Savings Over Time",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "xaxis": {
+                "categories": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "yaxis": {
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    },
+    {
+        "id": "chart4",
+        "series": [
+            {
+                "name": "Investments",
+                "data": [500, 600, 700, 750, 800, 850, 900, 1000, 1100, 1200, 1300, 1400]
+            }
+        ],
+        "options": {
+            "chart": {
+                "type": "line",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Monthly Investments",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "xaxis": {
+                "categories": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "yaxis": {
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    },
+    {
+        "id": "chart5",
+        "series": [
+            {
+                "name": "Debt Repayments",
+                "data": [400, 450, 420, 500, 480, 460, 500, 550, 600, 620, 580, 600]
+            }
+        ],
+        "options": {
+            "chart": {
+                "type": "bar",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Debt Repayments",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "xaxis": {
+                "categories": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "yaxis": {
+                "labels": {
+                    "style": {
+                        "colors": "#FFF"
+                    }
+                }
+            },
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    },
+    {
+        "id": "chart6",
+        "series": [35, 25, 20, 15, 5],
+        "options": {
+            "chart": {
+                "type": "pie",
+                "background": "#333"
+            },
+            "title": {
+                "text": "Spending Breakdown by Category",
+                "style": {
+                    "color": "#FFF"
+                }
+            },
+            "labels": ["Rent", "Food", "Transportation", "Entertainment", "Miscellaneous"],
+            "tooltip": {
+                "theme": "dark",
+                "style": {
+                    "backgroundColor": "#444",
+                    "color": "#FFF"
+                }
+            },
+            "theme": {
+                "mode": "dark",
+                "palette": "palette1"
+            }
+        }
+    }
+]
