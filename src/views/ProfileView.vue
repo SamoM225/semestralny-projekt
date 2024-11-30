@@ -4,6 +4,10 @@ import Insights from '@/components/Insights.vue';
 import TransactionTable from '@/components/TransactionTable.vue';
 
 export default {
+    components: {
+        Insights,
+        TransactionTable
+    },
     data() {
         return {
             transactionStore: useTransactionStore()
@@ -18,6 +22,11 @@ export default {
         <div class="m-10">
             <h1>John Doe</h1>
             <h1>Username</h1>
+        <div class="flex flex-col mt-10 gap-4">
+            <v-btn>Change Name</v-btn>
+            <v-btn>Change Password</v-btn>
+            <v-btn>Change Avatar</v-btn>
+        </div>
         </div>
         <Insights class="w-1/2 ml-auto" :data="[
             { text: 'Monthly Limit', value: transactionStore.getMonthlyLimit },

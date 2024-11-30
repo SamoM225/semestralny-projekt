@@ -1,14 +1,13 @@
 <script>
-import { defineProps } from 'vue';
-
-const props = defineProps({
-    data: {
-        type: Array,
-        required: true,
+export default {
+    props: {
+        data: {
+            type: Array,
+            required: true,
+        },
     },
-});
+}
 </script>
-
 
 <template>
     <v-container class="py-4">
